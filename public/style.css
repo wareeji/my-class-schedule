@@ -1,0 +1,41 @@
+table
+{
+    border-spacing: 0;
+}
+
+th
+{
+    background-color: brown;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+td
+{
+    border-top: 1px solid darkgray;
+    padding: 5px;
+    text-align: center;
+}
+
+tbody tr:hover
+{
+    background-color: lightgray;
+} 
+
+h1{
+    color: rgb(217, 74, 98);
+    text-align: center;
+}
+
+body
+{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
